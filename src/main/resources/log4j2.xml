@@ -5,7 +5,7 @@
 
     <Appenders>
         <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="%d{HH:mm:ss.SSS} %5p --- [%10.50t] %-1.50c{1.}.%-1.20M:%L: %m%n%ex"/>
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %5p --- [%10.50t] %-1.50c{1.}.%-1.20M:%04L: %m%n%ex"/>
         </Console>
     </Appenders>
 
